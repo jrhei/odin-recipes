@@ -3,21 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="./styles.css">
     </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <img src="./images/winnie-eat.gif" alt="Winnie the pooh preparing to eat">
-        <h2>Recipes from different parts of the world!</h2>
-        <ul>
-            <li>
-                <h2><a href="./recipes/lasagna.html">Lasagna</a></h1>
-            </li>
-            <li>
-                <h2><a href="./recipes/arroz-caldo.html">Arroz Caldo</a></h1>
-            </li>
-            <li>
-                <h2><a href="./recipes/ramen.html">Ramen</a></h1>
-            </li>
-        </ul>        
+    <body style="background-image: url(./images/background-image.jpg);
+                background-size: cover;
+                height: auto;
+                width: auto;">
+        <div class="bg-image-source">Background Image Source: <a href="https://www.vecteezy.com/free-vector/table-with-food">Table With Food Vectors by Vecteezy</a></div>
+        <h1 class="title">Odin Recipes</h1>
+        <!--<img class="intro-image" src="./images/winnie-eat.gif" alt="Winnie the pooh preparing to eat">-->
+        <!--Removed Pooh Bear image, reserved for possible future use-->
+        <div class="actual-recipes">
+            <h2>Recipes from different parts of the world!</h2>
+            <ul>
+                <li>
+                    <div style="float: left">
+                    <img id="lasagna" src="./images/lasagna.jpeg" alt="lasagna"></div>
+                    <h2><a href="./recipes/lasagna.html">Lasagna</a></h1>
+                </li>
+                <li>
+                    <div style="float: left">
+                    <img id="arrozcaldo" src="./images/chicken-arroz-caldo.jpg" alt="lasagna"></div>
+                    <h2 ><a href="./recipes/arroz-caldo.html">Arroz Caldo</a></h1>
+                </li>
+                <li>
+                    <div style="float: left">
+                    <img id="ramen" src="./images/ramen.jpeg" alt="lasagna"></div>
+                    <h2 ><a href="./recipes/ramen.html">Ramen</a></h1>
+                </li>
+            </ul>  
+        </div>      
     </body>
 </html>

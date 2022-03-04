@@ -1,0 +1,51 @@
+.title{
+    color: hsl(50, 100%, 70%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Times New Roman", cursive;
+    font-style: italic;
+}
+.headers,
+.recipes{
+    font-weight: bold;
+    font-family: "Times New Roman", sans-serif;
+
+}
+.intro-image{
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body.recipe-page{
+    background-color: yellow;
+}
+
+div.actual-recipes{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Times New Roman", cursive;
+}
+#lasagna,
+#arrozcaldo,
+#ramen{
+    height: 50px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-image-source{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  .description,
+  .ingredients,
+  .steps{
+      font-size: 20px;
+      font-family: "Times New Roman", cursive;
+  }
